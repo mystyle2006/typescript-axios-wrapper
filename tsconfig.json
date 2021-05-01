@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es5",
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ]
+    },
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "outDir": "build",
+    "lib": [ "ES2015", "dom" ]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "node_modules"
+  ]
+}
